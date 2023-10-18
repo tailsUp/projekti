@@ -2,6 +2,10 @@ console.log('Tervetuloa index.js sivulle - sisältöä ladataan.')
 const express = require('express')
 const app = express()
 app.use(express.json())
+const cors = require('cors')
+app.use(cors())
+app.use(express.static('dist'))
+
 
 let notes = [  
     {
@@ -12,7 +16,12 @@ let notes = [
     {    
         id: 2,
         content: "Browser can execute only JavaScript",
-        important: false  
+        important: false
+    },
+    {    
+        id: 3,
+        content: "THIS COMES FROM BACKEND!!",
+        important: true
     }
 ]
 

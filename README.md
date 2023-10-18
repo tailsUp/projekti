@@ -14,6 +14,8 @@ Jos projektin pyörittämisessä on ongelmia niin sen riippuvuudet voi päivitt�
 2. npm install (tarvittaessa)
 3. npm install --save-dev nodemon (Tämä mahdollistaa reaaliaikaisen kehittämisen ilman että serveriä tarvitsee bootata)
 
+4. npm install cors
+
 *** Tuntikirjanpito ***
 
 13.10.2023: 15.00-16.00
