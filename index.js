@@ -1,4 +1,4 @@
-console.log('Tervetuloa index.js sivulle - sisältöä ladataan.')
+console.log('Tervetuloa BACKENDIIN - sisältöä ladataan.')
 const express = require('express')
 const app = express()
 app.use(express.json())
